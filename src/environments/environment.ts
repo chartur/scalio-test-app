@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  host: 'http://localhost:3000',
+  alertTimeOut: 3000
+};
+
+export const endpoints = {
+  getPosts: `${environment.host}/posts`, // GET
+  getPost: `${environment.host}/posts/:id` // GET
 };
 
 /*
