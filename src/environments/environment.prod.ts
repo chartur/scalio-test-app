@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  host: 'http://localhost:3000',
+  host: 'https://scalio-test-back.herokuapp.com',
   alertTimeOut: 3000
 };
 
